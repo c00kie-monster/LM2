@@ -77,7 +77,7 @@ public class MainApp extends Application{
 					else
 						results.add(s + ") Brak powtórzenia");
 					
-					System.out.println("Analiza kolejnego ciagu:");
+					System.out.println("Koniec analizy ciagu.\n");
 					automaton = new Automaton();
 				}
 				resultsList.setItems(FXCollections.observableList(results));
