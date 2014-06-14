@@ -24,7 +24,7 @@ public class Automaton {
 		leftBracket.addFollowStates(leftBracketNumber, error, leftBracketMinus, error, error, error, error);
 		leftBracketNumber.addFollowStates(leftBracketNumber, leftBracketOperand, leftBracketOperand, leftBracketOperand, leftBracketOperand, error, rightBracket);
 		leftBracketOperand.addFollowStates(leftBracketNumber, error, error, error, error, error, error);
-		rightBracket.addFollowStates(error, number, number, number, number, leftBracket, error);
+		rightBracket.addFollowStates(error, operand, operand, operand, operand, leftBracket, error);
 		leftBracketMinus.addFollowStates(leftBracketNumber, error, error, error, error, error, error);
 		error.addFollowState(error);
 	}

@@ -37,6 +37,7 @@ public final class AutomatonUnitTest {
 				{"*23"},
 				{")12("},
 				{"5*()"},
+				{"9*4+(1-2)-"},
 		};	
 	}	
 	@BeforeMethod

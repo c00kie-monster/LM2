@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class State {
 	private static final String[] edges = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "-", "/", "*", "(", ")"};
-	private static final int SAME_STATE_NUMBER = 9; //Dla pierwszych znaków 0..4 przejscie jest zawsze takie samo
+	private static final int SAME_STATE_NUMBER = 9; //Dla pierwszych znaków 0..9 przejscie jest zawsze takie samo
 	private String id;
 	private Map<String, State> follows;
 	
@@ -29,7 +29,7 @@ public class State {
 	/**
 	 * Kolejnosc stanow ma znaczenie:
 	 * <ul> 
-	 * <li>1 parametr - stan dla 0..4
+	 * <li>1 parametr - stan dla 0..9
 	 * <li>2 parametr - stan dla "+"
 	 * <li>3 parametr - stan dla "-"
 	 * <li>4 parametr - stan dla "*"
