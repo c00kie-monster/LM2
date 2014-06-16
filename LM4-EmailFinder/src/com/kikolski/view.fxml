@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView id="result" layoutX="21.0" layoutY="24.0" prefHeight="342.0" prefWidth="200.0" />
+      <TextField id="address" layoutX="250.0" layoutY="24.0" prefHeight="25.0" prefWidth="305.0" text="https://www.premier.gov.pl/kontakt.html" />
+      <Button id="find" layoutX="250.0" layoutY="65.0" mnemonicParsing="false" text="Szukaj" />
+      <Label id="error" layoutX="250.0" layoutY="111.0" textFill="#c30000" />
+   </children>
+</Pane>
